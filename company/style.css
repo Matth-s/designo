@@ -570,6 +570,8 @@ footer {
     }
     #container-quatres {
         width: 87%;
+        margin: auto;
+        margin-bottom: 310px;
         height: auto;
     }
     #container-quatres section {

@@ -28,11 +28,11 @@ header {
 .cover {
     display: none;
     position: absolute;
-    width: 90%;
+    width: 89.8%;
     left: 50%;
     transform: translateX(-50%);
     height: 100vh;
-    top: 388px;
+    top: 300px;
     background: #111111;
     opacity: 0.7;
 }
@@ -693,7 +693,7 @@ footer {
         flex-direction: column;
         padding : 48px 24px;
         z-index: 1;
-        top: 90px;
+        top: 60px;
         width: 100%;
         height: 235px;
         background: #000000;
@@ -828,6 +828,9 @@ footer {
     }
 }
 @media screen and (max-width: 430px) {
+    header {
+        margin: 34px auto;
+    }
     .container-deroulant {
         width: 87% !important;
     }
@@ -837,13 +840,16 @@ footer {
     .element-div-container-deroulant {
         height: auto;
     }
+    #container-quatres {
+        top: 3300px;
+    }
 }
 @media screen and (max-width: 350px) {
     #container-un {
         height: 930px;
     }
     #container-quatres {
-        top: 3450px;
+        top: 3400px;
     }
 }
 
