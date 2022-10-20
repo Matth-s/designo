@@ -674,6 +674,18 @@ footer {
     .reseau {
         margin: 0 auto;
     }
+    .app .container-deroulant {
+        top: 430px !important;
+    }
+    .app #container-un {
+        margin-bottom: 1919px !important;
+    }
+    .app .web-design {
+        top: 2553px;
+    }
+    .app #container-quatres {
+        top: 2875px !important;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -735,27 +747,34 @@ footer {
     .web #container-quatres {
         top: 4280px !important;
     }
-    .web .container-deroulant {
+    .web .container-deroulant, .app .container-deroulant {
         margin: auto !important;
-        justify-self: center !important;
+        left: 50%;
+        transform: translateX(-50%);
     }
     .app .container-deroulant {
-        margin: auto !important;
+        top: 528px !important;
     }
     .app #container-un {
-        margin-bottom: 2692px !important;
+        margin-bottom: 2756px !important;
     }
     .app .partie-droite-container-main-deux {
         flex-direction: column !important;
         width: 90% !important;
     }
+    .app .div-container-deroulant:nth-child(2) .element-div-container-deroulant:nth-child(3) {
+        display: none;
+    }
+    .app .div-container-deroulant:nth-child(2) .element-div-container-deroulant:nth-child(1) {
+        margin-bottom: 40px !important;
+    }
     .app #container-quatres {
-        top : 3662px !important;
+        top : 3710px !important;
     }
     .app .web-design {
         height: 200px !important;
         position: absolute;
-        top: 3326px;
+        top: 3392px;
     }
     .app .div-container-deroulant:nth-child(2) {
         height: 950px !important;
@@ -842,6 +861,24 @@ footer {
     }
     #container-quatres {
         top: 3300px;
+    }
+    .web .container-deroulant {
+        top: 465px;
+    }
+    .web #container-quatres {
+        top: 4200px !important;
+    }
+    .app .container-deroulant {
+        top: 470px !important;
+    }
+    .app #container-quatres {
+        top: 3600px !important;
+    }
+    .app .web-design {
+        top: 3324px !important;
+    }
+    .app #container-un {
+        margin-bottom: 2755px !important;
     }
 }
 @media screen and (max-width: 350px) {

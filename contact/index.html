@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="../assets/favicon-32x32.png" type="image/x-icon">
-    <title>Company</title>
+    <title>Contact</title>
 </head>
 <body>
     <header>
@@ -17,30 +17,26 @@
                 <img class="open" src="../assets/shared/mobile/icon-hamburger.svg" alt="open menu">
             </div>
             <ul class="ul-header">
-                <li><a href="#">OUR COMPANY</a></li>
+                <li><a href="../company/index.html">OUR COMPANY</a></li>
                 <li><a href="../location/index.html">LOCATIONS</a></li>
-                <li><a href="../contact/index.html">CONTACT</a></li>
+                <li><a href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div id="container-un">
             <section>
-                <h1>About Us</h1>
-                <p>Founded in 2010, we are a creative agency that produces lasting results for our clients. We’ve partnered with many startups, corporations, and nonprofits alike to craft designs that make real impact. We’re always looking forward to creating brands, products, and digital experiences that connect with our clients’ audiences.</p>
+                <h1>Contact Us</h1>
+                <p>Ready to take it to the next level? Let’s talk about your project or idea and find out how we can help your business grow. If you are looking for unique digital experiences that’s relatable to your users, drop us a line.</p>
             </section>
-            <div>
-                <img src="../assets/about/desktop/image-about-hero.jpg" alt="reunion">
-            </div>
-        </div>
-        <div id="container-deux">
-            <div>
-                <img src="../assets/about/desktop/image-world-class-talent.jpg" alt=" image-world-class-talent">
-            </div>
-            <section>
-                <h1>World-class talent</h1>
-                <p>We are a crew of strategists, problem-solvers, and technologists. Every design is thoughtfully crafted from concept to launch, ensuring success in its given market. We are constantly updating our skills in a myriad of platforms. <br> <br> Our team is multi-disciplinary and we are not merely interested in form — content and meaning are just as important. We give great importance to craftsmanship, service, and prompt delivery. Clients have always been impressed with our high-quality outcomes that encapsulates their brand’s story and mission.</p>
-            </section>
+            <form action="#" id="formulaire">
+                <input type="text" name="prenom" id="prenom" placeholder="Name"><p id="name-error"> <span>Can't be empty</span> <img src="../assets/contact/desktop/icon-error.svg" alt="icon-error"></p>
+                <input type="email" name="email" id="email" placeholder="Email Address"><p id="email-error"> <span>Can't be empty</span> <img src="../assets/contact/desktop/icon-error.svg" alt="icon-error"></p>
+                <input type="tel" name="telephone" id="telephone" placeholder="Phone"><p id="telephone-error"> <span>Can't be empty</span> <img src="../assets/contact/desktop/icon-error.svg" alt="icon-error"></p>
+                <textarea name="message" id="message" cols="10" rows="3" placeholder="Your Message"></textarea><p id="message-error"> <span>Can't be empty</span> <img src="../assets/contact/desktop/icon-error.svg" alt="icon-error"></p>
+                
+                <input id="submit" type="submit" value="SUBMIT">
+            </form>
         </div>
         <div id="container-trois">
             <div class="element-container-trois">
@@ -59,40 +55,16 @@
                 <button>SEE LOCATION</button>
             </div>
         </div>
-        <div id="container-quatres">
-            <section>
-                <h1>The real deal</h1>
-                <p>As strategic partners in our clients’ businesses, we are ready to take on any challenge as our own. Solving real problems require empathy and collaboration, and we strive to bring a fresh perspective to every opportunity. We make design and technology more accessible and give you tools to measure success. <br> <br>We are visual storytellers in appealing and captivating ways. By combining business and marketing strategies, we inspire audiences to take action and drive real results.</p>
-            </section>
-            <div>
-                <img src="../assets/about/desktop/image-real-deal.jpg" alt="image-real-deal">
-            </div>
-        </div>
-        <div id="container-cinq">
-            <section>
-                <h1>Let’s talk about your project</h1>
-                <p>Ready to take it to the next level? Contact us today and find out how our expertise can help your business grow.</p>
-            </section>
-            <button>Get in touch</button>
-        </div>
     </main>
-
-
-
-
-
-
-
-
     <footer>
         <div id="container-footer">
             <div class="element-footer">
                 <img src="../assets/shared/desktop/logo-light.png" alt="Designo">
                 <nav>
                     <ul class="ul-footer">
-                        <li><a href="#">OUR COMPANY</a></li>
+                        <li><a href="../company/index.html">OUR COMPANY</a></li>
                         <li><a href="../location/index.html">LOCATIONS</a></li>
-                        <li><a href="../contact/index.html">CONTACT</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </nav>
             </div>
@@ -117,7 +89,11 @@
             </div>
         </div>
     </footer>
+
+    
     <div class="cover"></div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="script.js"></script>
+    
 </body>
 </html>
